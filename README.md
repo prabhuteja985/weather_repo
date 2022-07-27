@@ -4,7 +4,7 @@ npm install -g @angular/cli<br>
 ng new weather2<br>
 cd weather2<br>
 ng serve</p>
-<p class="has-line-data" data-line-start="8" data-line-end="15">#Installation Bootstrap<br>
+<p class="has-line-data" data-line-start="8" data-line-end="15"><b>#Installation Bootstrap</b><br>
 npm install --save bootstrap<br>
   
 <b>#Plugin Installation Bootstrap</b><br>
