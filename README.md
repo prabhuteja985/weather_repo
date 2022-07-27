@@ -1,4 +1,4 @@
-<p class="has-line-data" data-line-start="0" data-line-end="1">#Angular Website Application</p>
+<p class="has-line-data" data-line-start="0" data-line-end="1">#Angular Web Application</p>
 <p class="has-line-data" data-line-start="2" data-line-end="7">#installation<br>
 npm install -g @angular/cli<br>
 ng new weather2<br>
