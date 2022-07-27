@@ -10,6 +10,7 @@ ng serve
 npm install --save bootstrap
 
 #Project push to github
+
 git init
 git add .
 git status
