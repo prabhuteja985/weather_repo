@@ -8,16 +8,27 @@
                       <div class="blog-title city pt-4">Visakhapatnam</div>
                   </div>
                   <div class="footer row gx-2 mt-4 p-3 mb-lg-5 bg-light">
-                          <form class="row" action="">
+                          <form class="row" [formGroup]="weatherSearchForm" (ngSubmit)="sendToAPIXU(weatherSearchForm.value)">
+                            
                               <div class="col-8">
-                                  <input style="height:50px;" class="col-8 form-control shadow-none" type="text" name="name" placeholder="Enter City" required></div>
-                              <button type="submit" style="height:50px;" class="col-4 btn btn-lg-lg shadow-none">Get Weather</button>
+                                  <input  class="col-8 form-control button shadow-none" type="text" name="name" placeholder="Enter City" formControlName="location" required></div>
+                              <button type="submit" class="col-4 btn btn-lg-lg button2 shadow-none">Get Weather</button>
                       </form>
+                  </div>
+                  <div class="col-md-6">
+                    <h3 class="text-center my-4">
+                        Weather Details
+                    </h3>
+                    <p class="text-center">
+                        Current Weather Conditions 
+                    </p>
+                    <p class="text-center">Feels Like</p>
+                    <p class="text-center">Location Searched</p>
                   </div>
           </div>
 
           <div class="image col-lg-6 col-md-12 col-sm-12 colxs-12 mt-md-5 mt-sm-5 mt-xs-5 mb-xxl-5">
-              <img src="../assets/1.png" alt="Weather-Illustration">
+              <img src="../assets/1.png" alt="Weather-Illustration" style="width: 750px;">
           </div>
       </div>
   </div>

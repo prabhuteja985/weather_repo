@@ -19,6 +19,18 @@ html{
 body{
     background:linear-gradient(120.2deg, #ADD8E6 0%, #FFFFFF 100%);
 }
+@media only screen and (padding:0px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    /* body{
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(120.2deg, #ADD8E6 0%, #FFFFFF 100%);
+    } */
+  }
+  
 
 section{
     background-repeat:no-repeat;
